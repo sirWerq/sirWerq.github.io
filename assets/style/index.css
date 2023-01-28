@@ -247,6 +247,64 @@ body{
 
 /* akhir hobby-1 */
 
+/* hobby-2 */
+.games-landing{
+    width: 100%;
+    padding: 20px;
+}
+
+.header-games{
+    width: 100%;
+    text-align: center;
+}
+
+.header-games h3{
+    font-size: 20px;
+}
+
+.games-landing h4{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.list-fav-games{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fav-games{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(87, 84, 84);
+    box-shadow: 0 0 5px black;
+    border-radius: 20px;
+}
+
+.fav-games figure{
+    margin: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fav-games img{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+}
+
+.fav-games figcaption{
+    margin-top: 10px;
+}
+
+
+
+/* akhir hobby-2 */
+
 /* footer */
 
 
@@ -273,7 +331,7 @@ body{
 
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 912px) {
     .group-hobby{
         flex-direction: column;
         height: 1100px;
@@ -295,6 +353,10 @@ body{
 
     .fav-anime .synopsis-hobby-1{
         margin: 5px;
+    }
+    .fav-games{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -320,6 +382,11 @@ body{
 
     .fav-anime .synopsis-hobby-1{
         margin: 5px;
+    }
+
+    .fav-games{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -366,5 +433,10 @@ body{
 
     .synopsis-hobby-1 p{
         font-size: 13px;
+    }
+
+    .fav-games{
+        flex-direction: column;
+        align-items: center;
     }
 }
