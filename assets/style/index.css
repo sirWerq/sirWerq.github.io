@@ -14,7 +14,6 @@ body{
 /* header */
 
 
-
 .header{
     width: 100%;
     height: 700px;
@@ -202,7 +201,7 @@ body{
 .list-fav-anime{
     display: flex;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 5px;
     align-items: center;
     flex-direction: column;
 }
@@ -303,6 +302,7 @@ body{
 @media (max-width: 600px) {
     .group-hobby{
         flex-direction: column;
+        height: 1100px;
     }
     
     .hobby h2{
@@ -320,5 +320,51 @@ body{
 
     .fav-anime .synopsis-hobby-1{
         margin: 5px;
+    }
+}
+
+/* phone */
+@media (max-width: 480px){
+
+    .myname{
+        font-size: 24px;
+    }
+
+    .group-hobby{
+        flex-direction: column;
+        height: 1100px;
+    }
+
+    .hobby h2{
+        margin-bottom: -10px;
+    }
+
+    .fav-anime a{
+        flex-direction: column;
+    }
+
+    .fav-anime figure{
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .fav-anime .synopsis-hobby-1{
+        margin: 5px;
+    }
+
+    .header-anime h3{
+        font-size: 14px;
+    }
+
+    .favorite-anime-header{
+        font-size: 14px;
+    }
+
+    .synopsis-hobby-1 h5{
+        font-size: 14px;
+    }
+
+    .synopsis-hobby-1 p{
+        font-size: 13px;
     }
 }
