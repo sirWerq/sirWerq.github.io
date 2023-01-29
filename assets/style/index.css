@@ -260,13 +260,15 @@ body{
 
 .header-games h3{
     font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .games-landing h4{
     font-size: 18px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .list-fav-games{
@@ -300,12 +302,74 @@ body{
 .fav-games figcaption{
     margin-top: 10px;
 }
-
-
-
 /* akhir hobby-2 */
 
+/* hobby-3 */
+.music-landing{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-landing h4{
+    font-size: 18px;
+    text-shadow: 0 0 5px black;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.music-wrap{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-wrap img{
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+/* akhir hobby-3 */
+
 /* footer */
+
+.footer{
+    width: 100%;
+    background-color: #384242;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .sosmed{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.footer .sosmed a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 15px;
+}
+
+.footer .cp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.cp span{
+    padding: 2px;
+}
 
 
 /* akhir footer */
@@ -388,6 +452,11 @@ body{
         flex-direction: column;
         align-items: center;
     }
+
+    .music-wrap img{
+        width: 350px;
+        height: 350px;
+    }
 }
 
 /* phone */
@@ -438,5 +507,10 @@ body{
     .fav-games{
         flex-direction: column;
         align-items: center;
+    }
+
+    .music-wrap img{
+        width: 250px;
+        height: 250px;
     }
 }
